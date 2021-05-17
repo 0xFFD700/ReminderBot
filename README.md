@@ -1,5 +1,5 @@
 # ReminderBot
-Reminder Bot for Signal and Discord.
+Reminder Bot for Signal.
 
 ## Setup Signal
 Run signal-cli config in the Terminal (credit https://github.com/AsamK/signal-cli)
