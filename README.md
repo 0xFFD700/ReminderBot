@@ -13,8 +13,8 @@ Run signal-cli config in the Terminal (credit https://github.com/AsamK/signal-cl
 ```
 
 ## Customize Script
-Change the ```+49<TelephonenumberSender>``` in ReminderBot.py to your phonenumber.
-Change the Discordtoken in  ```client.run(<discord-token>)``` in ReminderBot.py to your token.
+- Change the ```+49<TelephonenumberSender>``` in ReminderBot.py to your phonenumber.
+- Change the Discordtoken in  ```client.run(<discord-token>)``` in ReminderBot.py to your token.
 
 ## Set Reminders
 Make a CVS with the format <service>,<reciever>,<day>,<message> and name it Reminder.csv.
@@ -23,7 +23,7 @@ Make a CVS with the format <service>,<reciever>,<day>,<message> and name it Remi
 - day: monday, tuesday, wednesday, thursday, friday, saturday, sunday or everyday
 ```
 signal;+4912345678910;monday;Hier könnte ihre Werbung stehen!
-discord;<discord token>;everyday;Today something is happening!
+discord;12324234183172;everyday;Today something is happening!
 ```
   
 ## Start script
