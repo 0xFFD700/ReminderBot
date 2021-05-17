@@ -1,9 +1,6 @@
 # ReminderBot
 Reminder Bot for Signal and Discord.
 
-## Setup Discord
-Install Discord.py ```python3 -m pip install -U discord.py```.
-
 ## Setup Signal
 Run signal-cli config in the Terminal (credit https://github.com/AsamK/signal-cli)
 ```
@@ -14,16 +11,14 @@ Run signal-cli config in the Terminal (credit https://github.com/AsamK/signal-cl
 
 ## Customize Script
 - Change the ```+49<TelephonenumberSender>``` in ReminderBot.py to your phonenumber.
-- Change the Discordtoken in  ```client.run(<discord-token>)``` in ReminderBot.py to your token.
 
 ## Set Reminders
-Make a CVS with the format <service>,<reciever>,<day>,<message> and name it Reminder.csv.
-- service: discord or signal
-- receiver: phonenumber or discord-channel
+Make a CVS with the format <reciever>,<day>,<message> and name it Reminder.csv.
+- receiver: phonenumber
 - day: monday, tuesday, wednesday, thursday, friday, saturday, sunday or everyday
 ```
-signal;+4912345678910;monday;Hier könnte ihre Werbung stehen!
-discord;12324234183172;everyday;Today something is happening!
++4912345678910;monday;Hier könnte ihre Werbung stehen!
+12324234183172;everyday;Today something is happening!
 ```
   
 ## Start script
