@@ -1,4 +1,4 @@
-# SignalBot
+# SignalReminder
 Reminder Bot for Signal.
 
 ## Setup Signal
