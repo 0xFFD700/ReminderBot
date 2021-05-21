@@ -10,12 +10,19 @@ Run signal-cli config in the Terminal (credit https://github.com/AsamK/signal-cl
 ./signal-cli -u +49<TelephonenumberSender> send -m “Hello World” +49<TelephonenumberReciever>
 ```
 
+## Join a group
+```
+#Join with the invitelink and get the group id as a response
+./signal-cli -u +49<TelephonenumberSender> joinGroup --uri <invitelink>
+./signal-cli -u +49<TelephonenumberSender> send -g <groupid> -m “Hello World”
+```
+
 ## Customize Script
 - Change the ```+49<TelephonenumberSender>``` in reminder.py to your phonenumber.
 
 ## Set Reminders
 Make a CVS with the format <reciever>,<day>,<message> and name it Reminder.csv.
-- receiver: phonenumber
+- receiver: phonenumber or groupid
 - day: monday, tuesday, wednesday, thursday, friday, saturday, sunday or everyday
 ```
 +4912345678910;monday;Hier könnte ihre Werbung stehen!
