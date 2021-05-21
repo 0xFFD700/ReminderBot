@@ -21,12 +21,13 @@ Run signal-cli config in the Terminal (credit https://github.com/AsamK/signal-cl
 - Change the ```+49<TelephonenumberSender>``` in reminder.py to your phonenumber.
 
 ## Set Reminders
-Make a CVS with the format <reciever>,<day>,<message> and name it Reminder.csv.
+Make a CVS with the format <reciever>,<group or person>,<day>,<message> and name it Reminder.csv.
 - receiver: phonenumber or groupid
+- group or person: specifies if you want to message a group or single person
 - day: monday, tuesday, wednesday, thursday, friday, saturday, sunday or everyday
 ```
-+4912345678910;monday;Hier könnte ihre Werbung stehen!
-+4912324234183;everyday;Today something is happening!
++4912345678910;person;monday;Hier könnte ihre Werbung stehen!
+GTAHYc0dieGruppepb/OjMT7/RRNGNorHyw2hsQ0=;group;everyday;Today something is happening!
 ```
   
 ## Start script
