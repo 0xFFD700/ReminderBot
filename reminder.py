@@ -9,8 +9,8 @@ with open('reminder.csv', 'r') as file:
 	for row in reader:
 		if (row[2] == currentDate or row[2] == "everyday"):
 			if(row[1] == "person"):
-				print('signal-cli -u phonenumber send -m "' + row[3] + '" ' + row[0])
-				os.system('signal-cli -u +49<TelephonenumberSender> send -m "' + row[3] + '" ' + row[0])
+				print('signal-cli -u $USERNAME send -m "' + row[3] + '" ' + row[0])
+				os.system('signal-cli -u $USERNAME send -m "' + row[3] + '" ' + row[0])
 			else:
-				print('signal-cli -u phonenumber send -m "' + row[3] + '" -g ' + row[0])
-				os.system('signal-cli -u +49<TelephonenumberSender> send -m "' + row[3] + '" -g ' + row[0])
+				print('signal-cli -u $USERNAME send -m "' + row[3] + '" -g ' + row[0])
+				os.system('signal-cli -u $USERNAME send -m "' + row[3] + '" -g ' + row[0])
